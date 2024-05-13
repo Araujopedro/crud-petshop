@@ -1,4 +1,4 @@
-'''NOME: Pedro Henrique Soares Araujo RM:553801 1TDSPS'''
+''''''
 
 import oracledb
 import pandas as pd
