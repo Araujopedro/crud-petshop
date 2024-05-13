@@ -321,9 +321,9 @@ def main():
 def conecta_BD():
     try:
         # Conectar com o Servidor
-        dnStr = oracledb.makedsn("oracle.fiap.com.br", "1521", "ORCL")
+        dnStr = oracledb.makedsn(", "1521", "ORCL")
         # Efetuar a conexão com o usuário
-        conn = oracledb.connect(user='RM553801', password='301003', dsn=dnStr)
+        conn = oracledb.connect(user='', password='', dsn=dnStr)
 
         # Criar as instruções para cada módulo
         inst_SQL = conn.cursor()
